@@ -1,14 +1,16 @@
 var fileSystem = {
-	'include.js': [{
-		'processor': 'jt-include',
-		'file': 'files/index.html',
-		'jt-include': {
-			include: {
-				'css': './files/css.css',
-				'js': './files/js.js'
+	'files': {
+		'newindex.html': [{
+			'processor': 'jt-include',
+			'file': './index.html',
+			'jt-include': {
+				include: {
+					'css': './css.css',
+					'js': './js.js'
+				}
 			}
-		}
-	}]
+		}]
+	}
 };
 
 module.exports = fileSystem;

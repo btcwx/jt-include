@@ -1,1 +1,1 @@
-module.expost = require('./lib/include.js');
+module.exports = require('./lib/include.js');
