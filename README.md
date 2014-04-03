@@ -3,7 +3,21 @@ jt include
 ![travis](https://api.travis-ci.org/wyicwx/jt-include.png)
 
 
+####参数
 
+```
+var fs = {
+	'include.js': [{
+		'processor': 'jt-include',
+		'file': 'index.html',
+		'jt-include': {
+			include: {
+				'fileA': './fileA.js'
+			}
+		}
+	}]
+}
+```
 
 ##LICENSES
 
