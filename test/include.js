@@ -7,10 +7,10 @@ jt.config.base = path.resolve(__dirname);
 jt.init();
 
 jt.fs.assign('jt-include', require('../index.js'));
-describe('seajs', function() {
-	it('正常渲染', function() {
+describe('include', function() {
+	it('正常渲染', function(done) {
 		jt.fs.readFile('files/newindex.html', function(data) {
-			console.log(data);
+			done();
 		});
 	});
 });

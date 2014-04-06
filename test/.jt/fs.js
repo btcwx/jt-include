@@ -5,8 +5,7 @@ var fileSystem = {
 			'file': './index.html',
 			'jt-include': {
 				include: {
-					'css': './css.css',
-					'js': './js.js'
+					'css': './css.css'
 				}
 			}
 		}]
