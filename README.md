@@ -11,9 +11,7 @@ var fs = {
 		'processor': 'jt-include',
 		'file': 'index.html',
 		'jt-include': {
-			include: {
-				'fileA': './fileA.js'
-			}
+			'fileA': './fileA.js'
 		}
 	}]
 }
