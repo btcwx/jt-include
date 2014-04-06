@@ -53,4 +53,18 @@ describe('include', function() {
 			}
 		});
 	});
+
+	it('空参数', function(done) {
+		jt.fs.readFile('files/newindex3.html', function(data) {
+			var body = fs.readFileSync('./test/files/index3.html');
+
+			body = body.toString().replace("<%= include('') %>", '');
+			
+			if(body == data.toString()) {
+				done();
+			} else {
+				done(false);
+			}
+		});
+	});
 });

@@ -17,6 +17,10 @@ var fileSystem = {
 		'newindex2.html': [{
 			'processor': 'jt-include',
 			'file': './index2.html'
+		}],
+		'newindex3.html': [{
+			'processor': 'jt-include',
+			'file': './index3.html'
 		}]
 	}
 };
