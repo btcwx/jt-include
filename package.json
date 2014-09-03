@@ -1,6 +1,6 @@
 {
   "name": "jt-include",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "include file for jt-cli",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,8 @@
     "jt-include"
   ],
   "dependencies": {
-    "through2": "~0.4.1"
+    "through2": "~0.4.1",
+	"mutils": "~0.0.0"
   },
   "devDependencies": {
     "mocha": "*",
